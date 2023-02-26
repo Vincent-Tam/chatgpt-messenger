@@ -16,10 +16,10 @@ function ChatInput({ chatId }: Props) {
   const [prompt, setPrompt] = useState("");
   const { data: session } = useSession();
 
+  //useSWR to get model
   const { data: model } = useSWR("model", {
-    fallbackData: "tet-davinci-003",
+    fallbackData: "text-davinci-003",
   });
-  //TODO: useSWR to get model
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
