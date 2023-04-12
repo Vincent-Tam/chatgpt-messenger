@@ -1,27 +1,15 @@
-# Next.js + Tailwind CSS Example
+# Chatgpt Messenger | [Demo](https://vincent-chatgpt-messenger.vercel.app/)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is a clone of the official chatgpt client side. The website developed with [Next.js (v13)](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Firebase](https://firebase.google.com/) and deploy it to the cloud with [Vercel](https://vercel.com/).
 
-## Deploy your own
+## Reminder
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Because the website implemented Google authentication by the Firebase.
+Therefore, the website requires **Google Login** and will store all messages in the Firebase.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Screenshots
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+![](https://i.imgur.com/jHgDqen.png)
+![](https://i.imgur.com/fMTEI1z.png)
+![](https://i.imgur.com/jMoAyBl.png)
+![](https://i.imgur.com/Mn9tjyX.png)
